@@ -13,6 +13,7 @@ public class CreateASet {
     public static void main(String[] args){
         String[] words = {"A", "B", "B", "D", "C", "A"};
         System.out.println( "original: " + Arrays.toString(words));
+        
         System.out.println( "as a set: " + Arrays.toString(makeSet(words)));
         
         Rectangle[] rectList = {new Rectangle(), new Rectangle(), 
